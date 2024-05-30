@@ -1,2 +1,2 @@
 select *
-from {{ var("db_schema") }}.dim_venues where venuename = '{{ var("venue_name") }}' 
+from test.dim_venues where venuename = '{{ var("venue_name") }}' 
