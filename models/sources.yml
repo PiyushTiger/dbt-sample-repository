@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: test
+    database: sql_dbt  
+    schema: test  
+    tables:
+      - name: audit_logs
+      - name: pra_xml

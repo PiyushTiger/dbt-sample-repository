@@ -1,0 +1,8 @@
+# variables.yml
+
+vars:
+  db_schema: 'dbt'
+  db_user: 'my_user'
+  db_password: 'my_password'
+  db_host: 'localhost'
+  db_port: 5432
